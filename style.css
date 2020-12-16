@@ -1,0 +1,102 @@
+body{
+  margin: 0px;
+}
+
+.main_menu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 12px;
+  border-bottom: red solid 1px;
+}
+.main_menu a {
+  color: #0c0b0bd0;
+}
+
+.left {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+.fab {
+  color: red;
+  font-size: 25px;
+  margin-left: 30px;
+}
+
+.right {
+  display: flex;
+  justify-content: space-between;
+  width: 14%;
+  padding-right: 30px;
+}
+
+.right a {
+  color: rgba(12, 11, 11, 0.815);
+}
+
+.fa-user-circle {
+  font-size: 30px;
+  color: rgba(0, 0, 255, 0.767);
+}
+
+.search {
+  border-radius: 5px;
+  border: solid 0.1px rgba(0, 0, 0, 0.158);
+  background-color: rgba(0, 0, 0, 0.068);
+}
+.fa-search {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.sub_menu{
+  margin;
+  border: solid red 1px;
+  width: 235px;
+  font-size: 15px;
+  margin: 0;
+  height: 600px ;
+  overflow-y: scroll;
+}
+
+
+
+.sub_menu i {
+  font-size: 18px;
+}
+
+.sub_menu a {
+  text-decoration: none;
+}
+
+.sub_menu li {
+  margin: 0px;
+  list-style: none;
+  padding: 11px;
+  padding-left: 30px;
+  color: rgba(0, 0, 0, 0.685);
+  
+}
+
+.sub_menu ul{
+  margin: 0;
+  padding: 0px;
+  border-bottom: solid rgba(0, 0, 0, 0.13) 1px;
+}
+
+.sub_menu i {
+  margin-right: 20px;
+}
+
+
+.sub_menu li:hover {
+  background-color: rgba(107, 102, 102, 0.082); 
+}
+
+.list_5 p{ 
+  font-size: 13px;
+}
+
