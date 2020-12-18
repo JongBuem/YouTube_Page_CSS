@@ -328,8 +328,9 @@ iframe {
 
 @media screen and (max-width:700px) { 
   .sub_menu{
-   display: none;
+    display: none;
   }
+
   .content a{
     font-size: 20px;
   }
@@ -338,27 +339,43 @@ iframe {
     position : absolute;
     padding: 0px;
     margin: 0px;
-  }
-  
-  .content iframe {
     width: 100%;
+  }
+  .content_cf {
+    margin-left: 40px;
+  }
+  .content iframe {
+    width: 90%;
     height: 200px;
   }
-  
+
+ 
+
   .content div {
     margin-right: 10px;
     display: block;
     width: 100%;
- 
 }
 
-.search input{
-  width: 80px;
- 
-}
+  .search {
+  background-color: white;
+  border: white;
+  }
 
-.right i{
- font-size: 15px;
-}
+  .search input{
+    display: none;
+  
+  }
+
+  .fa-search {
+    color: rgba(0, 0, 0, 0.753);
+
+  }
+
+  .right {
+    display: none;
+  }
+
+
 
 }
