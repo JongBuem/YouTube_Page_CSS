@@ -155,7 +155,6 @@ body{
   background-color: rgba(249, 249, 249);
   height: 580px ;
   overflow-y: scroll;
-  width: auto;
 }
 
 .content a{
